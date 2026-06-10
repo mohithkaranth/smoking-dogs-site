@@ -16,7 +16,7 @@ const links = {
   // TODO: Replace with the official Smoking Dogs Spotify URL.
   spotify: "https://open.spotify.com/artist/0OWDdZeo1wpu0DdIFBwMo6",
   // TODO: Replace with the preferred booking/contact email.
-  email: "smokingdogsband@example.com"
+  email: "smokingdogssg.official@gmail.com"
 };
 
 const heroButtons = [
