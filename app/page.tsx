@@ -104,10 +104,20 @@ export default function Home() {
               About
             </p>
             <h2 className="mt-4 font-display text-4xl font-bold text-white sm:text-6xl">
-              Classic attitude. Modern weight.
+              About Smoking Dogs
             </h2>
           </div>
           <div className="space-y-6 text-base leading-8 text-zinc-300 sm:text-[17px] sm:leading-9">
+            <p>
+              Smoking Dogs is a Singapore rock band built around loud guitars,
+              big grooves, and songs that are meant to be played live.
+            </p>
+            <p>
+              Classic rock is the starting point, but the band keeps it raw,
+              modern, and direct &mdash; the kind of music that sounds best with
+              friends, amps, and a cold beer nearby.
+            </p>
+            <h3 className="pt-4 text-2xl font-bold text-white">The Band</h3>
             <p>
               Smoking Dogs is Mo on vocals, Val on guitars, Lee Dea on bass,
               and Hardy on drums &mdash; with Elise on violin as an extended
