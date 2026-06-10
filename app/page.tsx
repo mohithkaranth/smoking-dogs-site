@@ -59,9 +59,9 @@ const galleryTiles = [
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-black text-zinc-100">
-      <section className="relative flex min-h-[92vh] items-center px-5 py-8 sm:px-8 lg:px-12">
+      <section className="smoke-layer relative flex min-h-[760px] items-center px-5 py-8 sm:min-h-[92vh] sm:px-8 lg:px-12">
         <div
-          className="absolute inset-0 bg-cover bg-center brightness-110 contrast-105"
+          className="absolute inset-0 bg-contain bg-top bg-no-repeat brightness-110 contrast-105 sm:bg-cover sm:bg-center"
           style={{ backgroundImage: "url('/gallery/hero.png')" }}
         />
         <div className="absolute inset-0 bg-black/45" />
