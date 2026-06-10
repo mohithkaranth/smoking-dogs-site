@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #050505;
+  color: #f4f4f5;
+}
+
+::selection {
+  background: rgba(220, 38, 38, 0.5);
+  color: #fff;
+}
+
+.smoke-layer {
+  background:
+    radial-gradient(circle at 20% 18%, rgba(220, 38, 38, 0.2), transparent 32%),
+    radial-gradient(circle at 78% 12%, rgba(245, 158, 11, 0.16), transparent 28%),
+    radial-gradient(circle at 54% 52%, rgba(113, 113, 122, 0.24), transparent 36%),
+    linear-gradient(135deg, rgba(24, 24, 27, 0.92), rgba(9, 9, 11, 0.96));
+}
+
+.noise-overlay {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 38px 38px;
+  mask-image: linear-gradient(to bottom, black, transparent 82%);
+}
